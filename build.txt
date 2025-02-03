@@ -1,0 +1,3 @@
+displayName = Reaper Mod
+author = Reaperman
+version = 0.1

@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ReaperMod.System
+namespace ReapersMod.System
 {
     public class ReapersBrain : ModSystem
     {
@@ -31,11 +31,6 @@ namespace ReaperMod.System
         {
             currentSeedY = WorldGen.genRand.Next(SpawnY - 200, SpawnY + 1001);
             return currentSeedY;
-        }
-
-        public override void OnWorldLoad()
-        {
-            //add spawn point
         }
 
         public override void ModifySunLightColor(ref Color tileColor, ref Color backgroundColor)

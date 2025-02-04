@@ -3,14 +3,14 @@ using Terraria.ID;
 using Terraria.IO;
 using Terraria.WorldBuilding;
 
-namespace ReaperMod.Content.Worldworks
+namespace ReapersMod.Content.Worldworks
 {
     public class AnyLiquidToLava : GenPass
     {
         public AnyLiquidToLava(string name, float loadWeight) : base(name, loadWeight) { }
         protected override void ApplyPass(GenerationProgress progress, GameConfiguration configuration)
         {
-            progress.Message = "[c/ff0000:Removing Terraria's unnecessary liquids and turning them into lava]";
+            progress.Message = "Removing Terraria's unnecessary liquids and turning them into lava";
 
             for (int x = 0; x < Main.maxTilesX; x++)
             {

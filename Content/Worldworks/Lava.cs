@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.IO;
 using Terraria.WorldBuilding;
 
-namespace ReaperMod.Content.Worldworks
+namespace ReapersMod.Content.Worldworks
 {
     public class Lava : GenPass
     {
@@ -11,7 +11,7 @@ namespace ReaperMod.Content.Worldworks
 
         protected override void ApplyPass(GenerationProgress progress, GameConfiguration configuration)
         {
-            progress.Message = "[c/ff0000:Generating some reaper into this world...]";
+            progress.Message = "Generating some reaper into this world...";
 
             int spawnX = Main.spawnTileX;
             int spawnY = Main.spawnTileY;

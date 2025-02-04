@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.IO;
 using Terraria.WorldBuilding;
 
-namespace ReaperMod.Content.Worldworks
+namespace ReapersMod.Content.Worldworks
 {
     public class ReaperonicOcean : GenPass
     {
@@ -11,7 +11,7 @@ namespace ReaperMod.Content.Worldworks
 
         protected override void ApplyPass(GenerationProgress progress, GameConfiguration configuration)
         {
-            progress.Message = "[c/ff0000:Generating Reaperonic Ocean...]";
+            progress.Message = "Generating Reaperonic Ocean...";
             for (int i = 0; i < 10; i++)
             {
                 for (int x = 0; x < Main.maxTilesX; x++)
